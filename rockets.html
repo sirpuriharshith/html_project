@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Rocket Database</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Rocket Database Explorer</h1>
+
+</header>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="launchpads.html">Launch Pads</a>
+<a href="missions.html">Missions</a>
+
+</nav>
+
+<div class="container">
+
+<h2>Search Rockets</h2>
+
+<input id="searchBox" placeholder="Search rocket name">
+
+<button onclick="searchRocket()">Search</button>
+
+<button onclick="sortPayload()">Sort by Payload</button>
+
+<div id="rocketContainer" class="rocket-grid"></div>
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
